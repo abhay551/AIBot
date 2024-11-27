@@ -10,6 +10,7 @@
 - **Compose Navigation**: Navigate through the app declaratively and modularly.
 - **Gemini AI**: Deliver dynamic chat responses.
 - **MVI Architecture**: Ensure clear state management and separation of concerns.
+- **KOIN**: Dependency management in the app.
 - **Ktor for Networking**: Fetch data efficiently using a lightweight, multiplatform HTTP client.
 - **SQLDelight**: Maintain a local database for offline chat history.
 - **Dark Mode**: Switch effortlessly between light and dark themes.
