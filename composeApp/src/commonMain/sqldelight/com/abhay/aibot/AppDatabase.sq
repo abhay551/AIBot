@@ -1,0 +1,16 @@
+CREATE TABLE ChatMessageEntity (
+    id TEXT NOT NULL PRIMARY KEY,
+    prompt TEXT NOT NULL,
+    response TEXT NOT NULL,
+    timestamp INTEGER NOT NULL
+);
+
+selectAllMessages:
+SELECT * FROM ChatMessageEntity;
+
+insertMessage:
+INSERT INTO ChatMessageEntity (id, prompt, response, timestamp)
+VALUES (?, ?, ?, ?);
+
+clearAllMessages:
+DELETE FROM ChatMessageEntity;
